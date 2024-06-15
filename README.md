@@ -71,3 +71,50 @@ Clone the Repository and Pull LFS Files
 cd Recommender-system
 git lfs pull
 
+## Jupyter Notebook
+
+To view and run the Jupyter Notebook for the movie recommender system, follow these steps:
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/rohanshr135/Recommender-system.git
+    cd Recommender-system
+    ```
+
+2. **Create and activate a virtual environment:**
+
+    - For Windows:
+      ```sh
+      python -m venv env
+      .\env\Scripts\activate
+      ```
+    - For macOS/Linux:
+      ```sh
+      python3 -m venv env
+      source env/bin/activate
+      ```
+
+3. **Install the required packages:**
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. **Install Jupyter Notebook:**
+
+    ```sh
+    pip install notebook
+    ```
+
+5. **Run the Jupyter Notebook:**
+
+    ```sh
+    jupyter notebook
+    ```
+
+6. **Navigate to the `notebooks` directory in the Jupyter interface and open the `movie_recommender.ipynb` file.**
+
+This notebook contains the code for the movie recommender system along with explanations and outputs.
+
+
